@@ -109,8 +109,8 @@
       
       }
       .left{
-        padding: 1.5em;
-        padding-right: 5em;
+        padding: 3em;
+        padding-right: 8em;
         width: 40%;
         border-top-left-radius: 1rem;
         border-bottom-left-radius: 1rem;
@@ -121,6 +121,11 @@
       }
       .right{
       border-top-left-radius: 0rem;
+      display: block;
+        max-width:500px;
+        max-height:413px;
+        width: auto;
+        height: auto;
     }
       .card{
       max-width: 65%;
@@ -131,33 +136,46 @@
         
       }
       .stats{
-         padding: 0.5em;
+        margin: 0;
+        padding: 0;
          flex-direction:row;
-         font-size: 0.9em;
+         font-size: 0.8em;
           justify-content: left
       }
+      .stat-el{
+        margin: 0;
+        padding:1em 0em;
+        padding-right: 2em;
+      }
       .stat-el span{
-
-        font-size: 1.5em;
+        padding: 0;
+        font-size: 1.em;
         text-align: left;
       }
       img{
+        display: block;
+        max-width:500px;
+        max-height:413px;
+        width: auto;
+        height: auto;
         border-top-right-radius: 1rem;
         border-bottom-right-radius: 1rem;
         border-top-left-radius: 0rem;
       }
       .main-head{
-        padding: 0em;
-      padding-left: 5%;
-      font-size: 2.2em;
-      text-align: left    
+        margin: 0;
+        padding: 0;
+        font-size: 1.7em;
+        text-align: left    
     }
     p{
+      font-size: 0.9em;
       margin: 0;
       padding: 0;
       text-align: left;
       line-height: 1.2em;
-      padding: 0 1.25em;
+      padding: 2em 0 ;
+      padding-bottom: 3em;
     }
   }
     
